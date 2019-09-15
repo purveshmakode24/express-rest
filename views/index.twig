@@ -73,7 +73,7 @@
                 <h3 class="mt-2 mb-4">Sample template-Model-Layer Post Request Form(to Insert Data):</h3>
                 {% if success %}
                     {% for mess in success %}
-                        <div class="alert alert-success">{{ mess }}</div>
+                        <div class="alert alert-success">{{ mess.message }}</div>
                     {% endfor %}
                 {% endif %}
                 <div class="form-group">
