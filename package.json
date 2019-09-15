@@ -1,0 +1,21 @@
+{
+  "name": "node-auth",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.7.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.2",
+    "twig": "~0.10.3"
+  }
+}
