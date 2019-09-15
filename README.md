@@ -56,10 +56,9 @@
                 </table>
                 <small id="Help" class="form-text text-muted"><code>To perform CRUD Operations locally, Refer above
                         table</code></small>
-```
 
+---
 <small id="Help" class="form-text text-muted">Go to <code>http://localhost:3000/api/posts</code> to get
                     all data (in JSON).
 </small>
 
-```
